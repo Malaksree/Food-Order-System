@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-content{
+    text-align: center;
+
+}
+.clear-fix{
+    float: none;
+    clear: both;
+}
+.tablefull{
+    width: 100%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.btn-add{
+    background-color: rgb(103, 103, 255);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-add:hover{
+    background-color: blue;
+
+}
+
+
+.btn-second{
+    background-color:darkseagreen;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-second:hover{
+    background-color:darkgreen;
+
+}
+.btn-danger{
+    background-color:red;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color:darkred;
+
+}
+
+.success{
+    color:rgb(28, 160, 28);
+}
+.error{
+    color: red;
+}
+.tableadd{
+    width: 30%;
+}
+/* css for menu session*/
+.menu{
+    border-bottom: 2px solid gray;
+}
+.menu ul{
+    list-style: none;
+    
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;        
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:crimson;
+}
+.menu ul li a:hover{
+    color: purple;
+}
+/*css for main*/
+.main{
+    background-color:rgb(205, 203, 203);
+    padding: 3% 0;
+}
+.cols-4{
+    margin: 2%;
+    width: 18%;
+    background-color: aliceblue;
+    padding: 1%;
+    float: left;
+}
+/* css for footer*/
+.footer{
+    background-color:blue;
+    color: white;
+}
